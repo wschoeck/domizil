@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>domizil</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/media.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- header -->
+
+<div class="background_header">
+  <div class="container_header">
+
+    <div class="headeritemone">
+      <img class="logo" src="image/domizil_Logo.svg" alt="domizil_Logo" width="" height="">
+    </div>
+
+    <div class="headeritemabout headeritem textright">
+      <a href="ueberuns.html">
+        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+        <h4 class="menufont menufontmobile">ÜBER UNS</h4>
+      </a>
+    </div>
+
+    <div class="headeritemshop headeritem textright">
+      <a href="index.html">
+        <!-- <img class="iconheader default" src="image/icon_shop.svg" alt="icon_shop" width="" height=""> -->
+        <img class="iconheader" src="image/icon_shop_red.svg" alt="icon_shop_red" width="" height="">
+        <h4 class="menufont menufontmobile red">SHOP</h4>
+      </a>
+
+      <!-- menushopicon -->
+
+      <img class="iconheader default positionabsolute" id="menushopdeafult" src="image/icon_arrow_menu_red.svg" alt="icon_arrow_menu_red" width="" height="">
+      <img class="iconheader active positionabsolute" id="menushopicon" src="image/icon_arrow_menu_red.svg" alt="icon_arrow_menu_red" width="" height="">
+      <img class="hidden" id="menushopclose" src="image/icon_arrow_menu_close.svg" alt="icon_arrow_menu_close" width="" height="">
+
+      <!-- menushopicon -->
+
+    </div>
+
+    <div class="headeritemaccount headeritem textright">
+      <a href="meindomizil.html">
+        <img class="iconheader default" src="image/icon_meindomizil.svg" alt="icon_meindomizil" width="" height="">
+        <img class="iconheader active" src="image/icon_meindomizil_red.svg" alt="icon_meindomizil_red" width="" height="">
+        <h4 class="menufont menufontmobile">MEIN DOMIZIL</h4>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- header -->
+
+<!-- container_breadcrumb -->
+
+<div class="container_menu" id="menushop">
+  <div class="columnmenuone">
+    <h2 class="fontmenuinfo medium margintop white" href="">Unser Shop befindet sich im Aufbau und wird stetig erweitert. Gern bieten wir Ihnen unseren Service aber bereits bei diesen Angeboten an.</h2>
+  </div>
+
+  <div class="columnmenutwo">
+    <h2 class="bold margintop white" href="">Tassen</h2>
+    <a class="white" href="product_teetasse_tac.html">Teetasse 2-tlg.</a><br/>
+    <a class="white" href="product_kaffeetasse_urbino.html">Kaffeetasse Urbino</a><br/>
+    <a class="white" href="product_teetasse_urbino.html">Teetasse Urbino</a>
+  </div>
+
+</div>
+
+<div class="background_breadcrumb">
+
+<div class="container_breadcrumb">
+
+  <div class="breadcrumbone">
+    <h5 class="fontbreadcrumb white medium"><a class="white" href="index.html">Shop</a> > Kaffeetasse Urbino</h5>
+  </div>
+
+</div>
+
+</div>
+
+<!-- navi -->
+
+<div class="background_navi">
+
+<div class="container_navi">
+
+  <div class="navione headeritem">
+    <a href="product_kaffeetasse_urbino.html">
+      <img class="iconheader default" src="image/icon_product.svg" alt="icon_product" width="" height="">
+      <img class="iconheader active" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+      <h4 class="menufont">PRODUKT</h4>
+    </a>
+  </div>
+
+  <div class="navitwo headeritem">
+    <a href="beratung_kaffeetasse_urbino_volumen.html">
+      <img class="iconheader default" src="image/icon_beratung.svg" alt="icon_beratung" width="" height="">
+      <img class="iconheader active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+      <h4 class="menufont">BERATUNG</h4>
+    </a>
+  </div>
+
+  <div class="navithree headeritem">
+    <a href="kosmos_kaffeetasse_urbino_designer.html">
+      <img class="iconkosmos" src="image/icon_kosmos_red.svg" alt="icon_kosmos_red" width="" height="">
+      <h4 class="menufont red">KOSMOS</h4>
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- navi -->
+
+
+<!-- container_product -->
+
+<div class="container_kosmos">
+
+  <div class="columnproduct">
+    <h3 class="bold">Kaffeetasse Urbino</h3>
+    <h5 class="lineheightproduct medium">Keramikserie von Trude Petri</h5>
+    <img class="" src="image/tasse_petri.png" alt="tasse_petri" width="100%" height="">
+
+    <input id="tglbesichtigung" type="checkbox">
+
+    <label for="tglbesichtigung">
+
+      <div class="animation marginbottom">
+          <h4 class="fontbox medium marginleft">Besichtigungstermin anfragen</h4>
+          <div class="open red textright"></div>
+          <form action="/action_page.php">
+          <div class="contentbox"><h4 class="bold marginbox">Gewünschter Termin</h4></div>
+            <label class="fontsizedate" for="birthday">Datum auswählen</label>
+            <input class="textright" type="date" id="datum" name="datum">
+            <label for="questionform">
+              <textarea class="heightcomment" name="text" id="text" placeholder="Kommentar schreiben"></textarea>
+              <input type="submit" formaction="besichtigung.html" value="senden">
+            </label>
+          </form>
+      </div>
+
+    </label>
+
+  </div>
+
+  <div class="columnfaq z200">
+
+    <h2 class="medium">Ich möchte hierzu gern mehr erfahren</h2>
+
+    <!-- tglpulldown  -->
+
+    <input id="tglpulldown" type="checkbox">
+
+    <label for="tglpulldown">
+
+      <div class="animationberatung">
+          <h4 class="fontbox medium marginleft">Tipp</h4>
+          <div class="openpulldown red textright"></div>
+
+            <div class="contentbox floatclear">
+              <a class="link anthrazit marginpulldown" href="kosmos_kaffeetasse_urbino_designer.html">Designerin</a>
+              <a class="link anthrazit" href="kosmos_kaffeetasse_urbino_service.html">Urbino</a>
+              <a class="link anthrazit" href="kosmos_kaffeetasse_urbino_tassenformen.html">Tassenformen</a>
+              <a class="link anthrazit" href="kosmos_kaffeetasse_urbino_aktuell.html">Aktuell</a>
+            </div>
+
+      </div>
+
+    </label>
+
+    </div>
+
+    <div class="faq_sofar z100">
+
+      <img class="imagekosmos" src="image/kaffeehaus.jpg" alt="kaffeehaus" width="" height="">
+      <h5 class="medium marginarticle">Gastbeitrag von Robert Schuler, Kaffeeröster</h5>
+      <div class="bold fontsizeheadline marginarticle">Ein Morgenkaffee mit der Sonne Südamerikas</div>
+      <p class="medium">Mit domizil verbindet mich die grosse Leidenschaft für eine richtig schöne Tasse Kaffee und auch wenn ich mich mehr mit dem Inhalt als der Form von dieser beschäftige, lege ich ebenfalls hohen Wert darauf, dass bei meinen Kunden nur die beste Qualität auf den Tisch kommt. Besuchen Sie meinen Onlineshop und lesen Sie dort, wie wir vom Kaffeehaus dafür sorgen, dass Sie in Zürich fair produzierten Kaffee aus Südamerika bekommen.</p>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+      <img class="imagekosmos" src="image/Joost_Schmidt_Bauhausausstellung_1923.jpg" alt="Joost_Schmidt_Bauhausausstellung_1923" width="" height="">
+      <h5 class="medium marginarticle">Beitrag erstellt von unserer Mitarbeiterin Sabina Hubert am 2. Februar 2020</h5>
+      <div class="bold fontsizeheadline marginarticle">Im Kunsthaus Zürich wird an die legendäre Bauhaus-Ausstellung erinnert</div>
+      <p class="medium">Im Jahre 1923 war die erste öffentliche Präsentation des 1919 als Kunstschule gegründeten Staatlichen Bauhauses. Sie fand an drei Standorten in Weimar statt und zeigte an der Kunstschule entstandene Arbeiten. Die sechswöchige Ausstellung hatte damals etwa 15 000 Besucher. Nun werden am Kunsthaus Zürich vom 20. Juli bis am 14. September 2020 in einer grossen Ausstellung Designs von prägenden Künsterinnen und Künstler dieser Ära gezeigt. Unbedingt hingehen, neben einigen Klassikern wie dem von Trude Petri entworfenen Service Urbino gibt es auch einige bisher weniger bekannte Arbeiten aus dem Gründungsjahr der Kunstschule zu bewundern.</p>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+      <hr>
+      <h5 class="medium marginarticle">Gastbeitrag von Martina Raden, Kuratorin am Kunsthaus Zürich, erstellt am 12. Februar 2020</h5>
+      <div class="bold fontsizeheadline marginarticle">Werke aus den Anfangsjahren des Bauhauses</div>
+      <p class="medium">Hochkarätige Künstler wurden als Meister an das Weimarer Bauhaus berufen und ausgehend vom Manifest und Programm des Bauhauses entwickelten diese mit dem vom Schweizer Künstler und Kunstpädagogen Johannes Itten konzipierten Vorkurs, der berühmten Formen- und Farbenlehre von Paul Klee und Wassily Kandinsky sowie der praktischen Ausbildung in den Werkstätten ein ganz neuartiges Lehrprogramm. Akademische Zugangsbedingungen wurden aufgehoben, jeder begabte junge Mensch sollte am Bauhaus in Weimar studieren können und zwar unabhängig von Schulabschluss, Geschlecht oder Staatszugehörigkeit. Die Ausstellung in Zürich legt nun besonderen Wert darauf, die Vielfalt der Werke aus den Anfangsjahren dieser stilbildenden Kunstschule in einen Kontext zu den bekannten Klassikern zu stellen. Ganz besonders freut uns, dass wir neben einer Vielzahl an Zeichnungen auch erste Geschirr-Entwürfe aus den Werkstätten präsentieren können.</p>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+      <!-- <hr> -->
+      <h5 class="medium marginarticle">Beitrag erstellt von unserem Mitarbeiter Remo Lask am 12. Mai 2020</h5>
+
+      <video class="medium" width="" height="" controls>
+        <source src="image/domizil_snippet.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+      <img class="imagekosmos" src="image/illustration_kaffeeservice_urbino.jpg" alt="illustration_kaffeeservice_urbino" width="" height="">
+      <h5 class="medium marginarticle">Beitrag erstellt von unserer Mitarbeiterin Laura Norten am 5. Februar 2020</h5>
+      <div class="bold fontsizeheadline marginarticle">Das Service Urbino</div>
+      <p class="medium">Im Jahre 1931 entwarf Trude Petri Urbino, ein Service das mit seiner materialgerechten Form und der klaren Reduktion auf das Wesentliche ganz dem Gestaltungsprinzipien des Bauhauses entsprach. Das auf den Grundformen Kreis und Kugel basierende Design erhielt 1936 auf der Triennale in Mailand eine Goldmedaille und 1937 auf der Pariser Weltausstellung den Grand Prix. Beeinflusst ist der Entwurf von der eleganten ostasiatischen Gefäßkunst, zudem entsprach das Service den Bedingungen serieller Herstellung und vielseitiger Verwendung.</p>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+      <img class="imagekosmos" src="image/illustration_trude_petri.jpg" alt="illustration_trude_petri" width="" height="">
+      <h5 class="medium marginarticle">Beitrag erstellt von unserem Mitarbeiter Remo Lask am 12. Mai 2020</h5>
+      <div class="bold fontsizeheadline marginarticle">Die Designerin, die den Stil der KPM Berlin prägte</div>
+      <p class="medium">Trude Petri wurde 1929 als Designerin zur Königlichen Porzellan-Manufaktur Berlin (KPM) geholt. Nach ihrer Heirat mit John Raben siedelte sie nach Chicago über, blieb aber KPM weiter als Designerin treu. Von ihr stammen den auch so stilbildende Services wie «Urbino» und die zusammen mit dem Bildhauer Siegmund Schütz geschaffene Serie «Arkadia», bei der Petri die Form, Schütz die Medaillons in Biskuit-Porzellan gestaltete. Nach dem Zweiten Weltkrieg wird diese Form auch ohne Medaillons unter dem Namen Urania gefertigt. </p>
+
+      <div class="smile headeritem marginbottomarticle">
+        <img class="iconheader default" src="image/icon_smile.svg" alt="icon_smile" width="" height="">
+        <img class="iconheader active" src="image/icon_smile_active.svg" alt="icon_smile_active" width="" height="">
+      </div>
+
+
+      <div class="faq_questionanimation">
+
+
+      <input id="tgl" type="checkbox">
+
+      <label for="tgl">
+
+        <div class="animation marginbottom">
+            <h4 class="fontbox medium marginleft">Frage stellen</h4>
+            <div class="open red textright"></div>
+            <form>
+              <div class="contentbox"><h4 class="bold marginbox">Bitte schreiben Sie uns Ihre Frage</h4></div>
+              <label for="questionform">
+                <textarea name="text" id="text" placeholder="Bitte Text eingeben"></textarea>
+                <input type="submit" formaction="kosmos.html" value="senden">
+              </label>
+            </form>
+        </div>
+
+      </label>
+
+      </div>
+
+    </div>
+
+
+</div>
+
+<!-- container_shop -->
+
+<div class="background_shop">
+
+<div class="container_shopquestion">
+  <div class="shopheadline">
+    <h2 class="medium anthrazit margintop">Zuletzt von Ihnen angesehen</h2>
+</div>
+
+<div class="columnvisitone marginbottom">
+
+  <a href="product_teetasse_tac.html">
+
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_card.svg" alt="icon_product_card" width="" height="">
+      <img class="imageshop" src="image/tasse_gropius.png" alt="tasse_gropius" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Teetasse 2-tlg.</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+<div class="columnvisittwo marginbottom">
+
+  <a href="product_kaffeetasse_urbino.html">
+
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_card.svg" alt="icon_product_card" width="" height="">
+      <img class="imageshop" src="image/tasse_petri.png" alt="tasse_petri" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Kaffeetasse Urbino</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+<div class="columnvisitthree marginbottom">
+
+  <a href="product_teetasse_urbino.html">
+
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_card.svg" alt="icon_product_card" width="" height="">
+      <img class="imageshop" src="image/tasse_petri_2.png" alt="tasse_petri" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Teetasse Urbino</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- container_footer -->
+
+<div class="background_footer">
+
+<div class="container_footer">
+  <div class="columnfooterone">
+    <a href="impressum.html"><h5 class="medium white margintop floatleft">Impressum</h5></a>
+  </div>
+  <div class="columnfootertwo">
+    <a href="projekt.html"><h5 class="medium white margintop floatleft">Projekt domizil</h5></a>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<!-- navi -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
