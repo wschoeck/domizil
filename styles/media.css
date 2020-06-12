@@ -852,7 +852,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 30px 30px;
+      grid-template-rows: 50px 50px;
       grid-column-gap: ;
       grid-row-gap: 0;
       margin-left: auto;
@@ -947,7 +947,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 60px 2000px;;
+      grid-template-rows: 60px 2050px;;
       grid-column-gap: ;
       grid-row-gap: 0;
       margin-left: auto;
@@ -1069,6 +1069,14 @@
       margin-right: 20px;
       font-size: 14px;
       line-height: 20px;
+    }
+
+    .fontmorequestions {
+      margin-top: 33px;
+    }
+
+    .marginanswer {
+      margin-top: 0;
     }
 
 
