@@ -59,7 +59,7 @@
 
 <div class="container_menu" id="menushop">
   <div class="columnmenuone">
-    <h2 class="fontmenuinfo medium margintop white" href="">Unser Shop befindet sich im Aufbau und wird stetig erweitert. Gern bieten wir Ihnen unseren Service aber bereits bei diesen Angeboten an.</h2>
+    <h2 class="fontmenuinfo medium margintop white" href="">Unser Shop befindet sich im Aufbau und wird stetig erweitert. Gern bieten wir unseren Service aber bereits zu diesen Angeboten an.</h2>
   </div>
 
   <div class="columnmenutwo">
@@ -71,7 +71,7 @@
 
 </div>
 
-</div>
+<!-- </div> -->
 
 <div class="background_meindomizil">
 
@@ -121,6 +121,10 @@
 
 <!-- navi -->
 
+<div class="container_space">
+
+</div>
+
 
 <!-- container_product -->
 
@@ -131,11 +135,32 @@
     <h5 class="lineheightproduct medium">Porzellanserie TAC von Walter Gropius</h5>
     <img class="" src="image/tasse_gropius.png" alt="tasse_gropius" width="100%" height="">
 
+    <!-- tgl  -->
+
+    <input id="tgl" type="checkbox">
+
+    <label for="tgl">
+
+      <div class="animation">
+          <h4 class="fontbox medium marginleft">Frage stellen</h4>
+          <div class="open red textright"></div>
+          <form>
+            <div class="contentbox"><h4 class="bold marginbox">Bitte schreiben Sie uns Ihre Frage</h4></div>
+            <label for="questionform">
+              <textarea class="widthquestion" name="text" id="text" placeholder="Bitte Text eingeben"></textarea>
+              <input type="submit" formaction="kosmos.html" value="senden">
+              <img class="iconattachmentcolumn" src="image/icon_attachment_gray.svg" alt="icon_attachment" width="" height="">
+            </label>
+          </form>
+      </div>
+
+    </label>
+
     <input id="tglbesichtigung" type="checkbox">
 
     <label for="tglbesichtigung">
 
-      <div class="animation">
+      <div class="animation marginanimation">
           <h4 class="fontbox medium marginleft">Besichtigungstermin anfragen</h4>
           <div class="open red textright"></div>
           <form action="/action_page.php">
@@ -145,26 +170,6 @@
             <label for="questionform">
               <textarea class="heightcomment" name="text" id="text" placeholder="Kommentar schreiben"></textarea>
               <input type="submit" formaction="besichtigung.html" value="senden">
-            </label>
-          </form>
-      </div>
-
-    </label>
-
-    <!-- tgl  -->
-
-    <input id="tgl" type="checkbox">
-
-    <label for="tgl">
-
-      <div class="animation marginanimation">
-          <h4 class="fontbox medium marginleft">Frage stellen</h4>
-          <div class="open red textright"></div>
-          <form>
-            <div class="contentbox"><h4 class="bold marginbox">Bitte schreiben Sie uns Ihre Frage</h4></div>
-            <label for="questionform">
-              <textarea name="text" id="text" placeholder="Bitte Text eingeben"></textarea>
-              <input type="submit" formaction="kosmos.html" value="senden">
             </label>
           </form>
       </div>

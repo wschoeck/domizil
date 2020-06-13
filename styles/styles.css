@@ -482,7 +482,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20px 40px 140px 160px 140px 400px;
+  grid-template-rows: 20px 40px 140px 160px 140px 200px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -495,7 +495,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20px 60px;
+  grid-template-rows: 20px 60px 700px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -508,7 +508,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20px 40px 140px 160px 140px 400px;
+  grid-template-rows: 20px 40px 140px 160px 140px 300px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -525,15 +525,15 @@ div {
 }
 
 .columnprofilone {
-  grid-column-start:1;
-  grid-column-end:2;
+  grid-column-start:5;
+  grid-column-end:6;
   grid-row-start:3;
   grid-row-end:6;
 }
 
 .columnprofiltwo {
-  grid-column-start:2;
-  grid-column-end:7;
+  grid-column-start:6;
+  grid-column-end:9;
   grid-row-start:3;
   grid-row-end:6;
 }
@@ -1140,10 +1140,15 @@ input[type=date], select {
 
 .heightcomment {
   height: 120px;
+  width: 94%;
+}
+
+.widthquestion {
+  width: 94%;
 }
 
 textarea {
-  width: 94%;
+  width: 97.25%;
   height: 180px;
   padding: 10px;
   resize: none;
@@ -1272,7 +1277,14 @@ margin-right: 10px;
   width: 20px;
   height: 20px;
   transform: translateY(-2px);
-  margin-left: 560px;
+  margin-left: 565px;
+}
+
+.iconattachmentcolumn {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-45px);
+  margin-left: 295px;
 }
 
 .iconlike {
@@ -1630,7 +1642,7 @@ background-color: #EFEFEF;
 
 .columnterminformone {
 
-  grid-column-start:4;
+  grid-column-start:5;
   grid-column-end:10;
   grid-row-start:1;
   grid-row-end:1;
@@ -1737,7 +1749,7 @@ video {
 .columnmenuone {
 
   grid-column-start:3;
-  grid-column-end:7;
+  grid-column-end:6;
   grid-row-start:1;
   grid-row-end:1;
   width: auto;
@@ -1800,7 +1812,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 120px;
+  grid-template-rows: 120px 1950px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -1828,7 +1840,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 1400px;
+  grid-template-rows: 60px 1450px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -1842,7 +1854,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 600px;
+  grid-template-rows: 60px 650px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -2049,7 +2061,7 @@ br {
 }
 
 .marginabout {
-  margin-top: 57px;
+  margin-top: 47px;
 }
 
 .fontsizeentry {
@@ -2059,4 +2071,23 @@ br {
   margin-top: 60px;
   margin-bottom: 20px;
   letter-spacing: -0.1px;
+}
+
+.container_space {
+  display: grid;
+  width: 1140px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px;
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marginproduct {
+  margin-top: 1.2rem;
+}
+
+.marginimpressum {
+  margin-top: 1rem;
 }
