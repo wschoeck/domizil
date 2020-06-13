@@ -508,7 +508,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20px 40px 140px 160px 140px 300px;
+  grid-template-rows: 20px 40px 200px 600px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -2090,4 +2090,8 @@ br {
 
 .marginimpressum {
   margin-top: 1rem;
+}
+
+.margintopquestion {
+  margin-top: -2px;
 }
