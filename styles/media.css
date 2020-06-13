@@ -290,7 +290,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 40px;
+      grid-template-rows: 40px 820px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -680,7 +680,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 40px 120px;
+      grid-template-rows: 40px 100px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -693,7 +693,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 40px 120px;
+      grid-template-rows: 40px 100px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -706,7 +706,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 40px 120px 40px 60px 120px 80px;
+      grid-template-rows: 40px 100px 20px 40px 160px 80px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -720,7 +720,7 @@
       display: grid;
       width: 320px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 100px 220px;
+      grid-template-rows: 80px 220px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -1117,6 +1117,10 @@
       font-family: 'Spartan', sans-serif;
       font-size: 0.7rem;
       line-height: 1.2rem;
+    }
+
+    .marginicon {
+      margin-left: 0px;
     }
 
 

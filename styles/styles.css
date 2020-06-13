@@ -430,7 +430,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 120px 40px 120px 120px 60px 120px 400px;
+  grid-template-rows: 120px 40px 120px 120px 60px 120px 480px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -456,7 +456,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 120px 40px 140px 320px 200px 80px;
+  grid-template-rows: 120px 40px 140px 320px 200px 240px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -803,8 +803,8 @@ hr {
 .faq_questionbox_kollektion {
   grid-column-start:5;
   grid-column-end:13;
-  grid-row-start:7;
-  grid-row-end:8;
+  grid-row-start:6;
+  grid-row-end:7;
   width: auto;
 }
 
@@ -2094,4 +2094,12 @@ br {
 
 .margintopquestion {
   margin-top: -2px;
+}
+
+.marginicon {
+  margin-left: 5px;
+}
+
+.margininterest {
+  margin-bottom: 10px;
 }
